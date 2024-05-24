@@ -1,0 +1,452 @@
+[
+    {
+      "name": "Alabama",
+      "abbreviation": "AL",
+      "capital": "Montgomery",
+      "population": 4903185,
+      "state_bird": "Yellowhammer",
+      "state_flower": "Camellia",
+      "state_senators": ["Richard Shelby", "Tommy Tuberville"]
+    },
+    {
+      "name": "Alaska",
+      "abbreviation": "AK",
+      "capital": "Juneau",
+      "population": 731545,
+      "state_bird": "Willow Ptarmigan",
+      "state_flower": "Forget-Me-Not",
+      "state_senators": ["Lisa Murkowski", "Dan Sullivan"]
+    },
+    {
+      "name": "Arizona",
+      "abbreviation": "AZ",
+      "capital": "Phoenix",
+      "population": 7278717,
+      "state_bird": "Cactus Wren",
+      "state_flower": "Saguaro Cactus Blossom",
+      "state_senators": ["Kyrsten Sinema", "Mark Kelly"]
+    },
+    {
+      "name": "Arkansas",
+      "abbreviation": "AR",
+      "capital": "Little Rock",
+      "population": 3017804,
+      "state_bird": "Mockingbird",
+      "state_flower": "Apple Blossom",
+      "state_senators": ["John Boozman", "Tom Cotton"]
+    },
+    {
+      "name": "California",
+      "abbreviation": "CA",
+      "capital": "Sacramento",
+      "population": 39512223,
+      "state_bird": "California Quail",
+      "state_flower": "California Poppy",
+      "state_senators": ["Dianne Feinstein", "Alex Padilla"]
+    },
+    {
+      "name": "Colorado",
+      "abbreviation": "CO",
+      "capital": "Denver",
+      "population": 5758736,
+      "state_bird": "Lark Bunting",
+      "state_flower": "Rocky Mountain Columbine",
+      "state_senators": ["Michael Bennet", "John Hickenlooper"]
+    },
+    {
+      "name": "Connecticut",
+      "abbreviation": "CT",
+      "capital": "Hartford",
+      "population": 3565287,
+      "state_bird": "American Robin",
+      "state_flower": "Mountain Laurel",
+      "state_senators": ["Richard Blumenthal", "Chris Murphy"]
+    },
+    {
+      "name": "Delaware",
+      "abbreviation": "DE",
+      "capital": "Dover",
+      "population": 973764,
+      "state_bird": "Delaware Blue Hen",
+      "state_flower": "Peach Blossom",
+      "state_senators": ["Tom Carper", "Chris Coons"]
+    },
+    {
+      "name": "Florida",
+      "abbreviation": "FL",
+      "capital": "Tallahassee",
+      "population": 21477737,
+      "state_bird": "Northern Mockingbird",
+      "state_flower": "Orange Blossom",
+      "state_senators": ["Marco Rubio", "Rick Scott"]
+    },
+    {
+      "name": "Georgia",
+      "abbreviation": "GA",
+      "capital": "Atlanta",
+      "population": 10617423,
+      "state_bird": "Brown Thrasher",
+      "state_flower": "Cherokee Rose",
+      "state_senators": ["Jon Ossoff", "Raphael Warnock"]
+    },
+    {
+      "name": "Hawaii",
+      "abbreviation": "HI",
+      "capital": "Honolulu",
+      "population": 1415872,
+      "state_bird": "Nene",
+      "state_flower": "Yellow Hibiscus",
+      "state_senators": ["Brian Schatz", "Mazie Hirono"]
+    },
+    {
+      "name": "Idaho",
+      "abbreviation": "ID",
+      "capital": "Boise",
+      "population": 1787065,
+      "state_bird": "Mountain Bluebird",
+      "state_flower": "Syringa",
+      "state_senators": ["Mike Crapo", "Jim Risch"]
+    },
+    {
+      "name": "Illinois",
+      "abbreviation": "IL",
+      "capital": "Springfield",
+      "population": 12671821,
+      "state_bird": "Northern Cardinal",
+      "state_flower": "Violet",
+      "state_senators": ["Dick Durbin", "Tammy Duckworth"]
+    },
+    {
+      "name": "Indiana",
+      "abbreviation": "IN",
+      "capital": "Indianapolis",
+      "population": 6732219,
+      "state_bird": "Northern Cardinal",
+      "state_flower": "Peony",
+      "state_senators": ["Todd Young", "Mike Braun"]
+    },
+    {
+      "name": "Iowa",
+      "abbreviation": "IA",
+      "capital": "Des Moines",
+      "population": 3155070,
+      "state_bird": "Eastern Goldfinch",
+      "state_flower": "Wild Prairie Rose",
+      "state_senators": ["Chuck Grassley", "Joni Ernst"]
+    },
+    {
+      "name": "Kansas",
+      "abbreviation": "KS",
+      "capital": "Topeka",
+      "population": 2913314,
+      "state_bird": "Western Meadowlark",
+      "state_flower": "Sunflower",
+      "state_senators": ["Jerry Moran", "Roger Marshall"]
+    },
+    {
+      "name": "Kentucky",
+      "abbreviation": "KY",
+      "capital": "Frankfort",
+      "population": 4467673,
+      "state_bird": "Northern Cardinal",
+      "state_flower": "Goldenrod",
+      "state_senators": ["Mitch McConnell", "Rand Paul"]
+    },
+    {
+      "name": "Louisiana",
+      "abbreviation": "LA",
+      "capital": "Baton Rouge",
+      "population": 4648794,
+      "state_bird": "Brown Pelican",
+      "state_flower": "Magnolia",
+      "state_senators": ["Bill Cassidy", "John Kennedy"]
+    },
+    {
+      "name": "Maine",
+      "abbreviation": "ME",
+      "capital": "Augusta",
+      "population": 1344212,
+      "state_bird": "Chickadee",
+      "state_flower": "White Pine Cone and Tassel",
+      "state_senators": ["Susan Collins", "Angus King"]
+    },
+    {
+      "name": "Maryland",
+      "abbreviation": "MD",
+      "capital": "Annapolis",
+      "population": 6045680,
+      "state_bird": "Baltimore Oriole",
+      "state_flower": "Black-Eyed Susan",
+      "state_senators": ["Ben Cardin", "Chris Van Hollen"]
+    },
+    {
+      "name": "Massachusetts",
+      "abbreviation": "MA",
+      "capital": "Boston",
+      "population": 6892503,
+      "state_bird": "Black-Capped Chickadee",
+      "state_flower": "Mayflower",
+      "state_senators": ["Elizabeth Warren", "Ed Markey"]
+    },
+    {
+      "name": "Michigan",
+      "abbreviation": "MI",
+      "capital": "Lansing",
+      "population": 9986857,
+      "state_bird": "American Robin",
+      "state_flower": "Apple Blossom",
+      "state_senators": ["Debbie Stabenow", "Gary Peters"]
+    },
+    {
+      "name": "Minnesota",
+      "abbreviation": "MN",
+      "capital": "Saint Paul",
+      "population": 5639632,
+      "state_bird": "Common Loon",
+      "state_flower": "Pink and White Lady's Slipper",
+      "state_senators": ["Amy Klobuchar", "Tina Smith"]
+    },
+    {
+      "name": "Mississippi",
+      "abbreviation": "MS",
+      "capital": "Jackson",
+      "population": 2976149,
+      "state_bird": "Northern Mockingbird",
+      "state_flower": "Magnolia",
+      "state_senators": ["Roger Wicker", "Cindy Hyde-Smith"]
+    },
+    {
+      "name": "Missouri",
+      "abbreviation": "MO",
+      "capital": "Jefferson City",
+      "population": 6137428,
+      "state_bird": "Eastern Bluebird",
+      "state_flower": "Hawthorn",
+      "state_senators": ["Josh Hawley", "Eric Schmitt"]
+    },
+    {
+      "name": "Montana",
+      "abbreviation": "MT",
+      "capital": "Helena",
+      "population": 1068778,
+      "state_bird": "Western Meadowlark",
+      "state_flower": "Bitterroot",
+      "state_senators": ["Jon Tester", "Steve Daines"]
+    },
+    {
+      "name": "Nebraska",
+      "abbreviation": "NE",
+      "capital": "Lincoln",
+      "population": 1934408,
+      "state_bird": "Western Meadowlark",
+      "state_flower": "Goldenrod",
+      "state_senators": ["Deb Fischer", "Pete Ricketts"]
+    },
+    {
+      "name": "Nevada",
+      "abbreviation": "NV",
+      "capital": "Carson City",
+      "population": 3080156,
+      "state_bird": "Mountain Bluebird",
+      "state_flower": "Sagebrush",
+      "state_senators": ["Catherine Cortez Masto", "Jacky Rosen"]
+    },
+    {
+      "name": "New Hampshire",
+      "abbreviation": "NH",
+      "capital": "Concord",
+      "population": 1359711,
+      "state_bird": "Purple Finch",
+      "state_flower": "Purple Lilac",
+      "state_senators": ["Jeanne Shaheen", "Maggie Hassan"]
+    },
+    {
+      "name": "New Jersey",
+      "abbreviation": "NJ",
+      "capital": "Trenton",
+      "population": 8882190,
+      "state_bird": "Eastern Goldfinch",
+      "state_flower": "Violet",
+      "state_senators": ["Bob Menendez", "Cory Booker"]
+    },
+    {
+      "name": "New Mexico",
+      "abbreviation": "NM",
+      "capital": "Santa Fe",
+      "population": 2096829,
+      "state_bird": "Greater Roadrunner",
+      "state_flower": "Yucca Flower",
+      "state_senators": ["Martin Heinrich", "Ben Ray Luján"]
+    },
+    {
+      "name": "New York",
+      "abbreviation": "NY",
+      "capital": "Albany",
+      "population": 19453561,
+      "state_bird": "Eastern Bluebird",
+      "state_flower": "Rose",
+      "state_senators": ["Chuck Schumer", "Kirsten Gillibrand"]
+    },
+    {
+      "name": "North Carolina",
+      "abbreviation": "NC",
+      "capital": "Raleigh",
+      "population": 10488084,
+      "state_bird": "Northern Cardinal",
+      "state_flower": "Dogwood",
+      "state_senators": ["Thom Tillis", "Ted Budd"]
+    },
+    {
+      "name": "North Dakota",
+      "abbreviation": "ND",
+      "capital": "Bismarck",
+      "population": 762062,
+      "state_bird": "Western Meadowlark",
+      "state_flower": "Wild Prairie Rose",
+      "state_senators": ["John Hoeven", "Kevin Cramer"]
+    },
+    {
+      "name": "Ohio",
+      "abbreviation": "OH",
+      "capital": "Columbus",
+      "population": 11689100,
+      "state_bird": "Northern Cardinal",
+      "state_flower": "Scarlet Carnation",
+      "state_senators": ["Sherrod Brown", "JD Vance"]
+    },
+    {
+      "name": "Oklahoma",
+      "abbreviation": "OK",
+      "capital": "Oklahoma City",
+      "population": 3956971,
+      "state_bird": "Scissor-Tailed Flycatcher",
+      "state_flower": "Oklahoma Rose",
+      "state_senators": ["Jim Inhofe", "James Lankford"]
+    },
+    {
+      "name": "Oregon",
+      "abbreviation": "OR",
+      "capital": "Salem",
+      "population": 4217737,
+      "state_bird": "Western Meadowlark",
+      "state_flower": "Oregon Grape",
+      "state_senators": ["Ron Wyden", "Jeff Merkley"]
+    },
+    {
+      "name": "Pennsylvania",
+      "abbreviation": "PA",
+      "capital": "Harrisburg",
+      "population": 12801989,
+      "state_bird": "Ruffed Grouse",
+      "state_flower": "Mountain Laurel",
+      "state_senators": ["Bob Casey Jr.", "John Fetterman"]
+    },
+    {
+      "name": "Rhode Island",
+      "abbreviation": "RI",
+      "capital": "Providence",
+      "population": 1059361,
+      "state_bird": "Rhode Island Red",
+      "state_flower": "Violet",
+      "state_senators": ["Jack Reed", "Sheldon Whitehouse"]
+    },
+    {
+      "name": "South Carolina",
+      "abbreviation": "SC",
+      "capital": "Columbia",
+      "population": 5148714,
+      "state_bird": "Carolina Wren",
+      "state_flower": "Yellow Jessamine",
+      "state_senators": ["Lindsey Graham", "Tim Scott"]
+    },
+    {
+      "name": "South Dakota",
+      "abbreviation": "SD",
+      "capital": "Pierre",
+      "population": 884659,
+      "state_bird": "Ring-Necked Pheasant",
+      "state_flower": "American Pasque Flower",
+      "state_senators": ["John Thune", "Mike Rounds"]
+    },
+    {
+      "name": "Tennessee",
+      "abbreviation": "TN",
+      "capital": "Nashville",
+      "population": 6833174,
+      "state_bird": "Northern Mockingbird",
+      "state_flower": "Iris",
+      "state_senators": ["Marsha Blackburn", "Bill Hagerty"]
+    },
+    {
+      "name": "Texas",
+      "abbreviation": "TX",
+      "capital": "Austin",
+      "population": 28995881,
+      "state_bird": "Northern Mockingbird",
+      "state_flower": "Bluebonnet",
+      "state_senators": ["John Cornyn", "Ted Cruz"]
+    },
+    {
+      "name": "Utah",
+      "abbreviation": "UT",
+      "capital": "Salt Lake City",
+      "population": 3205958,
+      "state_bird": "California Gull",
+      "state_flower": "Sego Lily",
+      "state_senators": ["Mike Lee", "Mitt Romney"]
+    },
+    {
+      "name": "Vermont",
+      "abbreviation": "VT",
+      "capital": "Montpelier",
+      "population": 623989,
+      "state_bird": "Hermit Thrush",
+      "state_flower": "Red Clover",
+      "state_senators": ["Bernie Sanders", "Peter Welch"]
+    },
+    {
+      "name": "Virginia",
+      "abbreviation": "VA",
+      "capital": "Richmond",
+      "population": 8535519,
+      "state_bird": "Northern Cardinal",
+      "state_flower": "Dogwood",
+      "state_senators": ["Mark Warner", "Tim Kaine"]
+    },
+    {
+      "name": "Washington",
+      "abbreviation": "WA",
+      "capital": "Olympia",
+      "population": 7614893,
+      "state_bird": "Willow Goldfinch",
+      "state_flower": "Coast Rhododendron",
+      "state_senators": ["Patty Murray", "Maria Cantwell"]
+    },
+    {
+      "name": "West Virginia",
+      "abbreviation": "WV",
+      "capital": "Charleston",
+      "population": 1792147,
+      "state_bird": "Northern Cardinal",
+      "state_flower": "Rhododendron",
+      "state_senators": ["Joe Manchin", "Shelley Moore Capito"]
+    },
+    {
+      "name": "Wisconsin",
+      "abbreviation": "WI",
+      "capital": "Madison",
+      "population": 5822434,
+      "state_bird": "American Robin",
+      "state_flower": "Wood Violet",
+      "state_senators": ["Ron Johnson", "Tammy Baldwin"]
+    },
+    {
+      "name": "Wyoming",
+      "abbreviation": "WY",
+      "capital": "Cheyenne",
+      "population": 578759,
+      "state_bird": "Western Meadowlark",
+      "state_flower": "Indian Paintbrush",
+      "state_senators": ["John Barrasso", "Cynthia Lummis"]
+    }
+]

@@ -1,0 +1,417 @@
+[
+    {
+      "name": "George Washington",
+      "birthday": "1732-02-22",
+      "birth_location": "Westmoreland County, Virginia",
+      "presidential_term": "1789-1797",
+      "vice_president": ["John Adams"],
+      "first_lady": "Martha Washington",
+      "political_party": "None"
+    },
+    {
+      "name": "John Adams",
+      "birthday": "1735-10-30",
+      "birth_location": "Quincy, Massachusetts",
+      "presidential_term": "1797-1801",
+      "vice_president": ["Thomas Jefferson"],
+      "first_lady": "Abigail Adams",
+      "political_party": "Federalist"
+    },
+    {
+      "name": "Thomas Jefferson",
+      "birthday": "1743-04-13",
+      "birth_location": "Shadwell, Virginia",
+      "presidential_term": "1801-1809",
+      "vice_president": ["Aaron Burr", "George Clinton"],
+      "first_lady": "Martha Jefferson Randolph (daughter, as his wife Martha Jefferson had died before his presidency)",
+      "political_party": "Democratic-Republican"
+    },
+    {
+      "name": "James Madison",
+      "birthday": "1751-03-16",
+      "birth_location": "Port Conway, Virginia",
+      "presidential_term": "1809-1817",
+      "vice_president": ["George Clinton", "Elbridge Gerry"],
+      "first_lady": "Dolley Madison",
+      "political_party": "Democratic-Republican"
+    },
+    {
+      "name": "James Monroe",
+      "birthday": "1758-04-28",
+      "birth_location": "Monroe Hall, Virginia",
+      "presidential_term": "1817-1825",
+      "vice_president": ["Daniel D. Tompkins"],
+      "first_lady": "Elizabeth Monroe",
+      "political_party": "Democratic-Republican"
+    },
+    {
+      "name": "John Quincy Adams",
+      "birthday": "1767-07-11",
+      "birth_location": "Quincy, Massachusetts",
+      "presidential_term": "1825-1829",
+      "vice_president": ["John C. Calhoun"],
+      "first_lady": "Louisa Adams",
+      "political_party": "Democratic-Republican"
+    },
+    {
+      "name": "Andrew Jackson",
+      "birthday": "1767-03-15",
+      "birth_location": "Waxhaws Region, between North Carolina and South Carolina",
+      "presidential_term": "1829-1837",
+      "vice_president": ["John C. Calhoun", "Martin Van Buren"],
+      "first_lady": "Rachel Jackson (died before presidency), Emily Donelson (niece), Sarah Yorke Jackson (daughter-in-law)",
+      "political_party": "Democratic"
+    },
+    {
+      "name": "Martin Van Buren",
+      "birthday": "1782-12-05",
+      "birth_location": "Kinderhook, New York",
+      "presidential_term": "1837-1841",
+      "vice_president": ["Richard Mentor Johnson"],
+      "first_lady": "Hannah Van Buren (died before presidency), Angelica Singleton Van Buren (daughter-in-law)",
+      "political_party": "Democratic"
+    },
+    {
+      "name": "William Henry Harrison",
+      "birthday": "1773-02-09",
+      "birth_location": "Charles City County, Virginia",
+      "presidential_term": "1841",
+      "vice_president": ["John Tyler"],
+      "first_lady": "Anna Harrison",
+      "political_party": "Whig"
+    },
+    {
+      "name": "John Tyler",
+      "birthday": "1790-03-29",
+      "birth_location": "Charles City County, Virginia",
+      "presidential_term": "1841-1845",
+      "vice_president": [],
+      "first_lady": "Letitia Tyler, Julia Tyler",
+      "political_party": "Whig"
+    },
+    {
+      "name": "James K. Polk",
+      "birthday": "1795-11-02",
+      "birth_location": "Pineville, North Carolina",
+      "presidential_term": "1845-1849",
+      "vice_president": ["George M. Dallas"],
+      "first_lady": "Sarah Childress Polk",
+      "political_party": "Democratic"
+    },
+    {
+      "name": "Zachary Taylor",
+      "birthday": "1784-11-24",
+      "birth_location": "Barboursville, Virginia",
+      "presidential_term": "1849-1850",
+      "vice_president": ["Millard Fillmore"],
+      "first_lady": "Margaret Taylor",
+      "political_party": "Whig"
+    },
+    {
+      "name": "Millard Fillmore",
+      "birthday": "1800-01-07",
+      "birth_location": "Summerhill, New York",
+      "presidential_term": "1850-1853",
+      "vice_president": [],
+      "first_lady": "Abigail Fillmore",
+      "political_party": "Whig"
+    },
+    {
+      "name": "Franklin Pierce",
+      "birthday": "1804-11-23",
+      "birth_location": "Hillsborough, New Hampshire",
+      "presidential_term": "1853-1857",
+      "vice_president": ["William R. King"],
+      "first_lady": "Jane Pierce",
+      "political_party": "Democratic"
+    },
+    {
+      "name": "James Buchanan",
+      "birthday": "1791-04-23",
+      "birth_location": "Cove Gap, Pennsylvania",
+      "presidential_term": "1857-1861",
+      "vice_president": ["John C. Breckinridge"],
+      "first_lady": "Harriet Lane (niece)",
+      "political_party": "Democratic"
+    },
+    {
+      "name": "Abraham Lincoln",
+      "birthday": "1809-02-12",
+      "birth_location": "Hodgenville, Kentucky",
+      "presidential_term": "1861-1865",
+      "vice_president": ["Hannibal Hamlin", "Andrew Johnson"],
+      "first_lady": "Mary Todd Lincoln",
+      "political_party": "Republican"
+    },
+    {
+      "name": "Andrew Johnson",
+      "birthday": "1808-12-29",
+      "birth_location": "Raleigh, North Carolina",
+      "presidential_term": "1865-1869",
+      "vice_president": [],
+      "first_lady": "Eliza McCardle Johnson",
+      "political_party": "Democratic"
+    },
+    {
+      "name": "Ulysses S. Grant",
+      "birthday": "1822-04-27",
+      "birth_location": "Point Pleasant, Ohio",
+      "presidential_term": "1869-1877",
+      "vice_president": ["Schuyler Colfax", "Henry Wilson"],
+      "first_lady": "Julia Grant",
+      "political_party": "Republican"
+    },
+    {
+      "name": "Rutherford B. Hayes",
+      "birthday": "1822-10-04",
+      "birth_location": "Delaware, Ohio",
+      "presidential_term": "1877-1881",
+      "vice_president": ["William A. Wheeler"],
+      "first_lady": "Lucy Webb Hayes",
+      "political_party": "Republican"
+    },
+    {
+      "name": "James A. Garfield",
+      "birthday": "1831-11-19",
+      "birth_location": "Moreland Hills, Ohio",
+      "presidential_term": "1881",
+      "vice_president": ["Chester A. Arthur"],
+      "first_lady": "Lucretia Garfield",
+      "political_party": "Republican"
+    },
+    {
+      "name": "Chester A. Arthur",
+      "birthday": "1829-10-05",
+      "birth_location": "Fairfield, Vermont",
+      "presidential_term": "1881-1885",
+      "vice_president": [],
+      "first_lady": "Ellen Lewis Herndon Arthur (died before presidency), Mary McElroy (sister, as hostess)",
+      "political_party": "Republican"
+    },
+    {
+      "name": "Grover Cleveland",
+      "birthday": "1837-03-18",
+      "birth_location": "Caldwell, New Jersey",
+      "presidential_term": "1885-1889",
+      "vice_president": ["Thomas A. Hendricks"],
+      "first_lady": "Frances Cleveland",
+      "political_party": "Democratic"
+    },
+    {
+      "name": "Benjamin Harrison",
+      "birthday": "1833-08-20",
+      "birth_location": "North Bend, Ohio",
+      "presidential_term": "1889-1893",
+      "vice_president": ["Levi P. Morton"],
+      "first_lady": "Caroline Harrison, Mary Harrison McKee (daughter, after Caroline's death)",
+      "political_party": "Republican"
+    },
+    {
+      "name": "Grover Cleveland",
+      "birthday": "1837-03-18",
+      "birth_location": "Caldwell, New Jersey",
+      "presidential_term": "1893-1897",
+      "vice_president": ["Adlai E. Stevenson I"],
+      "first_lady": "Frances Cleveland",
+      "political_party": "Democratic"
+    },
+    {
+      "name": "William McKinley",
+      "birthday": "1843-01-29",
+      "birth_location": "Niles, Ohio",
+      "presidential_term": "1897-1901",
+      "vice_president": ["Garret A. Hobart", "Theodore Roosevelt"],
+      "first_lady": "Ida McKinley",
+      "political_party": "Republican"
+    },
+    {
+      "name": "Theodore Roosevelt",
+      "birthday": "1858-10-27",
+      "birth_location": "New York City, New York",
+      "presidential_term": "1901-1909",
+      "vice_president": ["Charles W. Fairbanks"],
+      "first_lady": "Edith Roosevelt",
+      "political_party": "Republican"
+    },
+    {
+      "name": "William Howard Taft",
+      "birthday": "1857-09-15",
+      "birth_location": "Cincinnati, Ohio",
+      "presidential_term": "1909-1913",
+      "vice_president": ["James S. Sherman"],
+      "first_lady": "Helen Herron Taft",
+      "political_party": "Republican"
+    },
+    {
+      "name": "Woodrow Wilson",
+      "birthday": "1856-12-28",
+      "birth_location": "Staunton, Virginia",
+      "presidential_term": "1913-1921",
+      "vice_president": ["Thomas R. Marshall"],
+      "first_lady": "Ellen Wilson, Edith Wilson",
+      "political_party": "Democratic"
+    },
+    {
+      "name": "Warren G. Harding",
+      "birthday": "1865-11-02",
+      "birth_location": "Blooming Grove, Ohio",
+      "presidential_term": "1921-1923",
+      "vice_president": ["Calvin Coolidge"],
+      "first_lady": "Florence Harding",
+      "political_party": "Republican"
+    },
+    {
+      "name": "Calvin Coolidge",
+      "birthday": "1872-07-04",
+      "birth_location": "Plymouth Notch, Vermont",
+      "presidential_term": "1923-1929",
+      "vice_president": ["Charles G. Dawes"],
+      "first_lady": "Grace Coolidge",
+      "political_party": "Republican"
+    },
+    {
+      "name": "Herbert Hoover",
+      "birthday": "1874-08-10",
+      "birth_location": "West Branch, Iowa",
+      "presidential_term": "1929-1933",
+      "vice_president": ["Charles Curtis"],
+      "first_lady": "Lou Henry Hoover",
+      "political_party": "Republican"
+    },
+    {
+      "name": "Franklin D. Roosevelt",
+      "birthday": "1882-01-30",
+      "birth_location": "Hyde Park, New York",
+      "presidential_term": "1933-1945",
+      "vice_president": ["John Nance Garner", "Henry A. Wallace", "Harry S. Truman"],
+      "first_lady": "Eleanor Roosevelt",
+      "political_party": "Democratic"
+    },
+    {
+      "name": "Harry S. Truman",
+      "birthday": "1884-05-08",
+      "birth_location": "Lamar, Missouri",
+      "presidential_term": "1945-1953",
+      "vice_president": ["Alben W. Barkley"],
+      "first_lady": "Bess Truman",
+      "political_party": "Democratic"
+    },
+    {
+      "name": "Dwight D. Eisenhower",
+      "birthday": "1890-10-14",
+      "birth_location": "Denison, Texas",
+      "presidential_term": "1953-1961",
+      "vice_president": ["Richard Nixon"],
+      "first_lady": "Mamie Eisenhower",
+      "political_party": "Republican"
+    },
+    {
+      "name": "John F. Kennedy",
+      "birthday": "1917-05-29",
+      "birth_location": "Brookline, Massachusetts",
+      "presidential_term": "1961-1963",
+      "vice_president": ["Lyndon B. Johnson"],
+      "first_lady": "Jacqueline Kennedy",
+      "political_party": "Democratic"
+    },
+    {
+      "name": "Lyndon B. Johnson",
+      "birthday": "1908-08-27",
+      "birth_location": "Stonewall, Texas",
+      "presidential_term": "1963-1969",
+      "vice_president": ["Hubert Humphrey"],
+      "first_lady": "Lady Bird Johnson",
+      "political_party": "Democratic"
+    },
+    {
+      "name": "Richard Nixon",
+      "birthday": "1913-01-09",
+      "birth_location": "Yorba Linda, California",
+      "presidential_term": "1969-1974",
+      "vice_president": ["Spiro Agnew", "Gerald Ford"],
+      "first_lady": "Pat Nixon",
+      "political_party": "Republican"
+    },
+    {
+      "name": "Gerald Ford",
+      "birthday": "1913-07-14",
+      "birth_location": "Omaha, Nebraska",
+      "presidential_term": "1974-1977",
+      "vice_president": ["Nelson Rockefeller"],
+      "first_lady": "Betty Ford",
+      "political_party": "Republican"
+    },
+    {
+      "name": "Jimmy Carter",
+      "birthday": "1924-10-01",
+      "birth_location": "Plains, Georgia",
+      "presidential_term": "1977-1981",
+      "vice_president": ["Walter Mondale"],
+      "first_lady": "Rosalynn Carter",
+      "political_party": "Democratic"
+    },
+    {
+      "name": "Ronald Reagan",
+      "birthday": "1911-02-06",
+      "birth_location": "Tampico, Illinois",
+      "presidential_term": "1981-1989",
+      "vice_president": ["George H. W. Bush"],
+      "first_lady": "Nancy Reagan",
+      "political_party": "Republican"
+    },
+    {
+      "name": "George H. W. Bush",
+      "birthday": "1924-06-12",
+      "birth_location": "Milton, Massachusetts",
+      "presidential_term": "1989-1993",
+      "vice_president": ["Dan Quayle"],
+      "first_lady": "Barbara Bush",
+      "political_party": "Republican"
+    },
+    {
+      "name": "Bill Clinton",
+      "birthday": "1946-08-19",
+      "birth_location": "Hope, Arkansas",
+      "presidential_term": "1993-2001",
+      "vice_president": ["Al Gore"],
+      "first_lady": "Hillary Clinton",
+      "political_party": "Democratic"
+    },
+    {
+      "name": "George W. Bush",
+      "birthday": "1946-07-06",
+      "birth_location": "New Haven, Connecticut",
+      "presidential_term": "2001-2009",
+      "vice_president": ["Dick Cheney"],
+      "first_lady": "Laura Bush",
+      "political_party": "Republican"
+    },
+    {
+      "name": "Barack Obama",
+      "birthday": "1961-08-04",
+      "birth_location": "Honolulu, Hawaii",
+      "presidential_term": "2009-2017",
+      "vice_president": ["Joe Biden"],
+      "first_lady": "Michelle Obama",
+      "political_party": "Democratic"
+    },
+    {
+      "name": "Donald Trump",
+      "birthday": "1946-06-14",
+      "birth_location": "Queens, New York",
+      "presidential_term": "2017-2021",
+      "vice_president": ["Mike Pence"],
+      "first_lady": "Melania Trump",
+      "political_party": "Republican"
+    },
+    {
+      "name": "Joe Biden",
+      "birthday": "1942-11-20",
+      "birth_location": "Scranton, Pennsylvania",
+      "presidential_term": "2021-present",
+      "vice_president": ["Kamala Harris"],
+      "first_lady": "Jill Biden",
+      "political_party": "Democratic"
+    }
+]
+  
