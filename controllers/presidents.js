@@ -77,15 +77,14 @@ const putPresident = async (req, res, next) => {
 /* DELETE one president */
 const deletePresident = async (req, res, next) => {
     try {
-        const presId = new ObjectId(req.params.id);
         const db = await mongodb.getDb();
+        const presId = new ObjectId(req.params.id);
         const deletedPres = await db.db().collection('presidents').deleteOne({ _id: presId });
 
         if (deletedPres.deletedCount === 0) {
-            return res.status(404).send('President not found.');
+            res.status(404).send("President not found.");
         } else {
-            res.setHeader('Content-Type', 'application/json');
-            res.status(204).json(result);
+            res.status(204).send("President deleted.");
         }
 
     } catch (err) {

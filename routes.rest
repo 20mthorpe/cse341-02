@@ -1,0 +1,191 @@
+
+# Presidents Requests
+
+# Get all presidents
+###
+GET http://localhost:8080/presidents
+
+# Get George Washington
+###
+GET http://localhost:8080/presidents/665269076abc95bf079a3724
+
+# Create a new president
+###
+POST http://localhost:8080/presidents HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Mary Thorpe",
+  "birthday": "2001-11-20",
+  "birth_location": "Chesterfield, Virginia",
+  "presidential_term": "2028-2032",
+  "vice_president": ["NA"],
+  "first_lady": "NA",
+  "political_party": "None"
+}
+
+# Update a president (ADD ID)
+###
+PUT http://localhost:8080/presidents/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Mary Thorpe",
+  "birthday": "2001-11-20",
+  "birth_location": "Chesterfield, Virginia",
+  "presidential_term": "2028-2032",
+  "vice_president": ["NA"],
+  "first_lady": "NA",
+  "political_party": "NA"
+}
+
+# Delete a president (ADD ID)
+###
+DELETE http://localhost:8080/presidents/
+
+
+# States Requests
+
+# Get all states
+###
+GET http://localhost:8080/states
+
+# Get Alabama
+###
+GET http://localhost:8080/states/665287466abc95bf07bb5af2
+
+# Create a new state
+###
+POST http://localhost:8080/states HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Mary's State",
+    "abbreviation": "MS",
+    "capital": "Maryville",
+    "population": 0,
+    "state_bird": "Hummingbird",
+    "state_flower": "Lavender",
+    "state_senators": ["Maria Thorpe", "Stephen Thorpe"]
+}
+
+# Update a state (ADD ID)
+###
+PUT http://localhost:8080/states/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Mary's State",
+    "abbreviation": "MS",
+    "capital": "Maryville",
+    "population": 0,
+    "state_bird": "Hummingbird",
+    "state_flower": "Lavender",
+    "state_senators": ["Mary Thorpe", "Jenny Hamby"]
+}
+
+# Delete a state (ADD ID)
+###
+DELETE http://localhost:8080/states/
+
+
+
+
+
+
+
+
+# RENDER REQUESTS #
+
+
+# Presidents Requests
+
+# Get all presidents
+###
+GET https://cse341-02-t64v.onrender.com/presidents
+
+# Get George Washington
+###
+GET https://cse341-02-t64v.onrender.com/665269076abc95bf079a3724
+
+# Create a new president
+###
+POST https://cse341-02-t64v.onrender.com/presidents HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Mary Thorpe",
+  "birthday": "2001-11-20",
+  "birth_location": "Chesterfield, Virginia",
+  "presidential_term": "2028-2032",
+  "vice_president": ["NA"],
+  "first_lady": "NA",
+  "political_party": "None"
+}
+
+# Update a president (ADD ID)
+###
+PUT https://cse341-02-t64v.onrender.com/presidents/ HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Mary Thorpe",
+  "birthday": "2001-11-20",
+  "birth_location": "Chesterfield, Virginia",
+  "presidential_term": "2028-2032",
+  "vice_president": ["NA"],
+  "first_lady": "NA",
+  "political_party": "NA"
+}
+
+# Delete a president (ADD ID)
+###
+DELETE https://cse341-02-t64v.onrender.com/presidents/
+
+
+# States Requests
+
+# Get all states
+###
+GET https://cse341-02-t64v.onrender.com/states
+
+# Get Alabama
+###
+GET https://cse341-02-t64v.onrender.com/665287466abc95bf07bb5af2
+
+# Create a new state
+###
+POST https://cse341-02-t64v.onrender.com/states HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Mary's State",
+    "abbreviation": "MS",
+    "capital": "Maryville",
+    "population": 0,
+    "state_bird": "Hummingbird",
+    "state_flower": "Lavender",
+    "state_senators": ["Maria Thorpe", "Stephen Thorpe"]
+}
+
+# Update a state (ADD ID)
+###
+PUT https://cse341-02-t64v.onrender.com/states/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Mary's State",
+    "abbreviation": "MS",
+    "capital": "Maryville",
+    "population": 0,
+    "state_bird": "Hummingbird",
+    "state_flower": "Lavender",
+    "state_senators": ["Mary Thorpe", "Jenny Hamby"]
+}
+
+# Delete a state (ADD ID)
+###
+DELETE https://cse341-02-t64v.onrender.com/states/
+
+
+

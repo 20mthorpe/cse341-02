@@ -71,8 +71,8 @@ const putState = async (req, res, next) => {
 /* DELETE one state */
 const deleteState = async (req, res, next) => {
     try {
-        const stateId = new ObjectId(req.params.id);
         const db = await mongodb.getDb();
+        const stateId = new ObjectId(req.params.id);
         const deletedState = await db.db().collection('states').deleteOne({ _id: stateId });
 
         if (deletedState.deletedCount === 0) {
