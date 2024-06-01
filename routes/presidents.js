@@ -1,15 +1,29 @@
 const express = require('express');
 const router = express.Router();
+const util = require('../utilities/index.js');
+//const { body, validationResult } = require('express-validator');
+const validator = require('../validation/validator.js');
 
 const presidentsController = require('../controllers/presidents.js');
 
-router.get('/', presidentsController.getPresidents);
-router.get('/:id', presidentsController.getPresident);
+router.get('/',
+    validator.validate,
+    util.handleErrors(presidentsController.getPresidents));
 
-router.post('/', presidentsController.postPresident);
+router.get('/:id',
+    validator.validate,
+    util.handleErrors(presidentsController.getPresident));
 
-router.put('/:id', presidentsController.putPresident);
+router.post('/',
+    validator.validate,
+    util.handleErrors(presidentsController.postPresident));
 
-router.delete('/:id', presidentsController.deletePresident);
+router.put('/:id',
+    validator.validate,
+    util.handleErrors(presidentsController.putPresident));
+
+router.delete('/:id',
+    validator.validate,
+    util.handleErrors(presidentsController.deletePresident));
 
 module.exports = router;

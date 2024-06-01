@@ -28,8 +28,54 @@
       },
       "post": {
         "description": "",
+        "consumes": [
+          "application/json"
+        ],
         "produces": [
           "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "contact",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "required": true
+                },
+                "abbreviation": {
+                  "type": "string",
+                  "required": true
+                },
+                "capital": {
+                  "type": "string",
+                  "required": true
+                },
+                "population": {
+                  "type": "string",
+                  "required": true
+                },
+                "state_bird": {
+                  "type": "string",
+                  "required": true
+                },
+                "state_flower": {
+                  "type": "string",
+                  "required": true
+                },
+                "state_senators": {
+                  "type": "array",
+                  "required": true,
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
         ],
         "responses": {
           "201": {
@@ -72,12 +118,56 @@
         "produces": [
           "application/json"
         ],
+        "consumes": [
+          "application/json"
+        ],
         "parameters": [
           {
             "name": "id",
             "in": "path",
             "required": true,
             "type": "string"
+          },
+          {
+            "name": "contact",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "required": true
+                },
+                "abbreviation": {
+                  "type": "string",
+                  "required": true
+                },
+                "capital": {
+                  "type": "string",
+                  "required": true
+                },
+                "population": {
+                  "type": "string",
+                  "required": true
+                },
+                "state_bird": {
+                  "type": "string",
+                  "required": true
+                },
+                "state_flower": {
+                  "type": "string",
+                  "required": true
+                },
+                "state_senators": {
+                  "type": "array",
+                  "required": true,
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
           }
         ],
         "responses": {
@@ -132,6 +222,49 @@
         "produces": [
           "application/json"
         ],
+        "parameters": [
+          {
+            "name": "contact",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "required": true
+                },
+                "birthday": {
+                  "type": "string",
+                  "required": true
+                },
+                "birth_location": {
+                  "type": "string",
+                  "required": true
+                },
+                "presidential_term": {
+                  "type": "string",
+                  "required": true
+                },
+                "vice_president": {
+                  "type": "array",
+                  "required": true,
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "first_lady": {
+                  "type": "string",
+                  "required": true
+                },
+                "political_party": {
+                  "type": "string",
+                  "required": true
+                }
+              }  
+            }
+          }
+        ],
         "responses": {
           "201": {
             "description": "Created"
@@ -173,17 +306,61 @@
         "produces": [
           "application/json"
         ],
+        "consumes": [
+          "application/json"
+        ],
         "parameters": [
           {
             "name": "id",
             "in": "path",
             "required": true,
             "type": "string"
+          },
+          {
+            "name": "contact",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "required": true
+                },
+                "birthday": {
+                  "type": "string",
+                  "required": true
+                },
+                "birth_location": {
+                  "type": "string",
+                  "required": true
+                },
+                "presidential_term": {
+                  "type": "string",
+                  "required": true
+                },
+                "vice_president": {
+                  "type": "array",
+                  "required": true,
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "first_lady": {
+                  "type": "string",
+                  "required": true
+                },
+                "political_party": {
+                  "type": "string",
+                  "required": true
+                }
+              }  
+            }
           }
         ],
         "responses": {
           "204": {
-            "description": "No Content"
+            "description": "Created"
           },
           "404": {
             "description": "Not Found"
