@@ -3,11 +3,19 @@ const bodyParser = require('body-parser');
 const mongodb = require('./database/connect.js')
 const util = require('./utilities/');
 
+const expressLayouts = require('express-ejs-layouts');
+
 const app = express();
 const port = process.env.PORT || 8080;
 
+app.set('view engine', 'ejs');
+app.use(expressLayouts);
+app.set('layout', './s/layout');
+
+
 const indexRoutes = require('./routes/index');
 app.use(bodyParser.json());
+
 
 // middleware
 app.use((req, res, next)=> {
@@ -17,7 +25,6 @@ app.use((req, res, next)=> {
     next();
 })
 
-app.use('/', util.handleErrors(indexRoutes));
 
 mongodb.initDb((err,db)=>{
     if (err) {
@@ -27,3 +34,4 @@ mongodb.initDb((err,db)=>{
         console.log(`Server is running on port: ${port}`);
     }   
 });
+app.use('/', util.handleErrors(indexRoutes));
