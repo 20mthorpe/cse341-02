@@ -2,11 +2,16 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongodb = require('./database/connect.js')
 const util = require('./utilities/');
+const { auth } = require('express-openid-connect')
+const config = require('./config/authconfig.js')
+
 
 const expressLayouts = require('express-ejs-layouts');
 
 const app = express();
 const port = process.env.PORT || 8080;
+
+app.use(auth(config));
 
 app.set('view engine', 'ejs');
 app.use(expressLayouts);
